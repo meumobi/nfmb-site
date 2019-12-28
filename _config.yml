@@ -18,14 +18,22 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+primary_color: '#FEC500'
+
+# - title -
+# Your site's title (e.g., Ben's awesome site, The GitHub Blog, etc.),
+# used as part of the title tag like 'page.title | title'.
 title: 'Internal Communication Platform to Drive Engagement Effectively'
-tagline: 'infomobi Engage your employees delivering key informations to targeted audience in a timely fashion.'
+# - tagline -
+# A short description (e.g., A blog dedicated to reviewing cat gifs),
+# used as part of the title tag of the home page like 'title | tagline'.
+tagline: 'One simple App to help you manage your all communication channels and deliver key informations to targeted audience in a timely fashion.'
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Boost your Internal Communication
-  infomobi Engage your employees delivering key informations to targeted audience in a timely fashion.
-  Provide real-time insights, celebrate achievements, ask your employees via polls and more features to drive engagement effectively.
-baseurl: "" # the subpath of your site, e.g. /blog
+  infomobi Engage your employees, delivering key informations to targeted audience in a timely fashion.
+  Provide real-time insights, celebrate achievements, ask your employees via polls and more features to improve Employee Experience.
+# baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://infomobi.app" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
@@ -43,6 +51,9 @@ jekyll_analytics:
     id: UA-59245997-8
 
 hubspot_id: 6842794
+
+languages: ["en", "pt", "pt-BR", "fr"]
+exclude_from_localizations: ["assets"]
 
 # Exclude from processing.
 # The following items will not be processed, by default.

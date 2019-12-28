@@ -1,0 +1,14 @@
+hero:
+  title: "Plataforma de comunicação interna"
+  text: 'Um simples App'
+Posts: Artigos
+global:
+  french: Français
+  english: English
+  portuguese (Pt): Português (Portugal)
+  portuguese (Br): Português (Brasil)
+pages:
+  home: Home
+  work: Work
+lang:
+  select: "Muda de idioma"

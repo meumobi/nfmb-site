@@ -1,12 +1,19 @@
 <head>
 	<meta class="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="theme-color" content="#6c63ff">
-  <link rel='stylesheet' href='assets/css/style.css' />
+  <meta name="theme-color" content="{{ site.primary_color }}">
+  <link rel='stylesheet' href='/assets/css/style.css' />
   {% if site.hubspot_id%}
   <!-- Start of HubSpot Embed Code -->
   <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/{{ site.hubspot_id }}.js"></script>
   <!-- End of HubSpot Embed Code -->
   {% endif %}
+  <script>
+    /*
+    locale value is undefined not provided
+    */
+    var [lang, locale] = (((navigator.userLanguage || navigator.language).replace('-', '_')).toLowerCase()).split('_');
+    console.log('Lang and locale: ', [lang, locale]);
+  </script>
   {% seo %}
 </head>

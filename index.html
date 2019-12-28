@@ -10,8 +10,8 @@ layout: landing
     <div class="container">
       <div class="hero__content">
         <div class="hero__content__inner" id='navConverter'>
-          <h1 class="hero__title">{{ site.title }}</h1>
-          <p class="hero__text">{{ site.tagline }}</p>
+          <h1 class="hero__title">{% t hero.title %}</h1>
+          <p class="hero__text">{% t hero.text %}</p>
           <a href="https://github.com/PizzaFox/evie-jekyll" class="button hero__button">GitHub</a>
           <a href="https://rubygems.org/gems/evie-jekyll" class="button button__accent">Download on RubyGems.org</a>
           <a href="https://evie.undraw.co" class="button hero__button">Evie project page</a>
@@ -39,21 +39,21 @@ layout: landing
     <div class="steps__inner">
       <div class="step">
         <div class="step__media">
-          <img src="assets/images/undraw_designer.svg" class="step__image">
+          <img src="/assets/images/undraw_designer.svg" class="step__image">
         </div>
         <h4>Programmers</h4>
         <p class="step__text">A landing page for your open source projects. Present your solution, easily create docs.</p>
       </div>
       <div class="step">
         <div class="step__media">
-          <img src="assets/images/undraw_responsive.svg" class="step__image">
+          <img src="/assets/images/undraw_responsive.svg" class="step__image">
         </div>
         <h4>Designers</h4>
         <p class="step__text">A website for your own freebies. Let the world download and use your artwork.</p>
       </div>
       <div class="step">
         <div class="step__media">
-          <img src="assets/images/undraw_creation.svg" class="step__image">
+          <img src="/assets/images/undraw_creation.svg" class="step__image">
         </div>
         <h4>Makers</h4>
         <p class="step__text">A great starting point for your web application. Focus on your idea and execution.</p>
@@ -66,7 +66,7 @@ layout: landing
   <div class="container">
     <div class="expanded__inner">
       <div class="expanded__media">
-        <img src="assets/images/undraw_browser.svg" class="expanded__image">
+        <img src="/assets/images/undraw_browser.svg" class="expanded__image">
       </div>
       <div class="expanded__content">
         <h2 class="expanded__title">Natural styling with almost nothing to learn</h2>
@@ -81,7 +81,7 @@ layout: landing
   <div class="container">
     <div class="expanded__inner">
       <div class="expanded__media">
-        <img src="assets/images/undraw_frameworks.svg" class="expanded__image">
+        <img src="/assets/images/undraw_frameworks.svg" class="expanded__image">
       </div>
       <div class="expanded__content">
         <h2 class="expanded__title">Framework agnostic. Your front-end setup, your choice.</h2>

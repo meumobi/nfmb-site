@@ -1,0 +1,15 @@
+hero:
+  title: 'Internal Communication Platform to Drive Engagement Effectively'
+  text: 'One simple App to help you manage your all communication channels and deliver key informations to targeted audience in a timely fashion.'
+
+Posts: Articles
+global:
+  french: Français
+  english: English
+  portuguese (Pt): Português (Portugal)
+  portuguese (Br): Português (Brasil)
+pages:
+  home: Home
+  work: Work
+lang:
+  select: "Select language"
