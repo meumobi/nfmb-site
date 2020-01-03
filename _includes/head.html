@@ -9,11 +9,7 @@
   <!-- End of HubSpot Embed Code -->
   {% endif %}
   <script>
-    /*
-    locale value is undefined not provided
-    */
-    var [lang, locale] = (((navigator.userLanguage || navigator.language).replace('-', '_')).toLowerCase()).split('_');
-    console.log('Lang and locale: ', [lang, locale]);
+    var supported_languages = {{ site.languages | jsonify }};
   </script>
   {% seo %}
 </head>
