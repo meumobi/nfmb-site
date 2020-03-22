@@ -1,7 +1,18 @@
 hero:
   title: 'Internal Communication Platform to Drive Engagement Effectively'
   text: 'Deliver key informations to targeted audience in a way that people can’t miss it! Save time using a unique interface to share organization updates on multi-channels: PCs, TV, phone and Email.'
-
+steps:
+  title: ''
+  text: ''
+  first:
+    title: 'Edit'
+    text: ''
+  second:
+    title: 'Publish'
+    text: ''
+  third:
+    title: 'Notify'
+    text: ''
 Posts: Articles
 global:
   french: Français

@@ -1,6 +1,18 @@
 hero:
   title: "Plataforma de comunicação interna para impulsionar um engagement eficaz"
   text: 'Graças sua abordagem multicanal, infomobi centraliza numa única interface toda sua comunicação interna digital. Oferece TV corporativa, Apps nativos e boletins por E-Mail, e garante assim que notícias importantes sejam lidas por todos!'
+steps:
+  title: ''
+  text: ''
+  first:
+    title: 'Edit'
+    text: ''
+  second:
+    title: 'Publish'
+    text: ''
+  third:
+    title: 'Notify'
+    text: ''
 Posts: Artigos
 global:
   french: Français

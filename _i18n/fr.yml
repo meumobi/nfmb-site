@@ -1,6 +1,18 @@
 hero:
   title: "Plateforme de communication interne pour informer efficacement vos collaborateurs"
   text: "Une simple appli pour vous aider à gérer vos moyens de communication interne et vous permettre de diffuser des informations importantes à des groupes de collaborateurs sans risque qu'elles soient ignorées."
+steps:
+  title: ''
+  text: ''
+  first:
+    title: 'Edit'
+    text: ''
+  second:
+    title: 'Publish'
+    text: ''
+  third:
+    title: 'Notify'
+    text: ''
 Posts: Articles
 global:
   french: Français

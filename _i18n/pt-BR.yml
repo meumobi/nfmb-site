@@ -1,6 +1,18 @@
 hero:
   title: "Plataforma de comunicação interna para impulsionar um engajamento eficaz"
-  text: 'Entregue informações importantes ao público-alvo de uma maneira que as pessoas não podem perder! Economize tempo usando uma interface exclusiva para compartilhar atualizações da organização em vários canais: PCs, TV, telefone e e-mail.'
+  text: 'infomobi é um ótimo aliado para que sua gestão de RH possa se comunicar com todos os funcionários em tempo real de forma segura.'
+steps:
+  title: 'Como funciona?'
+  text: 'Nossa equipe disponibiliza em menos de 24h uma solução personalizada, que vos permitirá publicar notícias para grupos específicos de colaboradores e emitir notificações quando o assunto é urgente ou importante. Para que a voz da organização seja ouvida por todos em qualquer lugar.'
+  first:
+    title: 'Editar'
+    text: 'Acesse infomobi do seu computador ou celular, edita seus comunicados, escolhe os grupos destinatários e canais de difusão: App, TV e/ou Email.'
+  second:
+    title: 'Publicar'
+    text: 'Em tempo real o comunicado é publicado nos canais escolhidos. O conteúdo é adaptado automaticamente.'
+  third:
+    title: 'Notificar'
+    text: 'Para notícias importantes os colaboradores recebem uma notificação no computador e/ou celular.'
 Posts: Artigos
 global:
   french: Français
