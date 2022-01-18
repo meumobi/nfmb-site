@@ -1,0 +1,11 @@
+Posts: Articles
+global:
+  french: Français
+  english: English
+  portuguese (Pt): Português (Portugal)
+  portuguese (Br): Português (Brasil)
+pages:
+  home: Home
+  work: Work
+lang:
+  select: "Select language"

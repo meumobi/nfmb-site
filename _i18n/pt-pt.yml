@@ -1,0 +1,11 @@
+Posts: Artigos
+global:
+  french: Français
+  english: English
+  portuguese (Pt): Português (Portugal)
+  portuguese (Br): Português (Brasil)
+pages:
+  home: Home
+  work: Work
+lang:
+  select: "Muda de idioma"

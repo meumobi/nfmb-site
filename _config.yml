@@ -23,13 +23,16 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
-hubspot_id: 5279532
+hubspot_id: 6842794
 
 # Build settings
 markdown: kramdown
 theme: evie-jekyll
 plugins:
   - jekyll-feed
+
+# The first item of languages will be used as the default.
+languages: ["en", "pt-pt", "pt-br"]
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -42,3 +45,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+exclude_from_localizations: ["js", "images", "css"]
+baseurl: ""
+permalink: /:title/
